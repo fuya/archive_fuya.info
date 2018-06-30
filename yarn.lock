@@ -3957,6 +3957,10 @@ map-cache@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
 
+map-like@^1.0.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/map-like/-/map-like-1.1.3.tgz#6faaca5339e0cc6567a3a55dd281fd871a39e5da"
+
 map-like@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/map-like/-/map-like-2.0.0.tgz#94496d49ad333c0dc3234b27adbbd1e8535953b4"
@@ -5613,6 +5617,13 @@ section-matter@^1.0.0:
     extend-shallow "^2.0.1"
     kind-of "^6.0.0"
 
+select-section@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/select-section/-/select-section-0.4.0.tgz#2b77eec9f6ae2c60b60740994a72a1ad0fbe295c"
+  dependencies:
+    map-like "^1.0.3"
+    txt-ast-traverse "^1.2.1"
+
 select@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
@@ -6178,6 +6189,12 @@ textlint-rule-no-dropping-the-ra@^1.0.3:
     kuromojin "^1.2.1"
     textlint-rule-helper "^1.1.4"
 
+textlint-rule-no-empty-section@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-empty-section/-/textlint-rule-no-empty-section-1.1.0.tgz#137ae6b8dfcaab759fd6068bfcc1a6c941bb4607"
+  dependencies:
+    select-section "^0.4.0"
+
 textlint-rule-no-exclamation-question-mark@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/textlint-rule-no-exclamation-question-mark/-/textlint-rule-no-exclamation-question-mark-1.0.2.tgz#f3d812cfbaddc8224ca497d9b38b70dac554891c"
@@ -6453,6 +6470,10 @@ tunnel-agent@^0.6.0:
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
   dependencies:
     safe-buffer "^5.0.1"
+
+txt-ast-traverse@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/txt-ast-traverse/-/txt-ast-traverse-1.2.1.tgz#58e3fe43ddb5db5ca8b51142943b0d1b970def41"
 
 type-check@~0.3.2:
   version "0.3.2"

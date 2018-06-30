@@ -1,0 +1,9 @@
+title: 'Fuya.info'
+description: 'fuya info'
+
+locales:
+  "/":
+    lang: "ja-JP"
+
+# for Development
+port: 8012

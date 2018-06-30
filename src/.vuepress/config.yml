@@ -1,6 +1,9 @@
 title: 'Fuya.info'
 description: 'fuya info'
 
+themeConfig:
+  sidebar: 'auto'
+
 locales:
   "/":
     lang: "ja-JP"

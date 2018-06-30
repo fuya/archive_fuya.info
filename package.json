@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "textlint": "^10.2.1",
+    "textlint-rule-preset-ja-technical-writing": "^2.0.0",
     "vuepress": "^0.10.2"
   }
 }

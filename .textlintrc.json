@@ -1,4 +1,6 @@
 {
   "filters": {},
-  "rules": {}
+  "rules": {
+    "preset-ja-technical-writing": true
+  }
 }

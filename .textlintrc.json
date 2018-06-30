@@ -5,6 +5,7 @@
     "ja-no-weak-phrase": false,
     "no-exclamation-question-mark": false,
     "sjsj": true,
-    "no-empty-section": true
+    "no-empty-section": true,
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true
   }
 }

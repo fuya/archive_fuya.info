@@ -3,11 +3,19 @@
     "comments": true
   },
   "rules": {
-    "preset-ja-technical-writing": true,
     "ja-no-weak-phrase": false,
     "no-exclamation-question-mark": false,
     "sjsj": true,
     "no-empty-section": true,
-    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "periodMark": "。",
+        "allowPeriodMarks": [
+          ":::"
+        ],
+        "allowEmojiAtEnd": true
+      }
+    }
   }
 }

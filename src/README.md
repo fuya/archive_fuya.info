@@ -5,10 +5,24 @@ footer: Copyright © 2018 Fuya.
 ---
 
 ## About Me
-<!-- textlint-disable preset-ja-technical-writing/max-comma, sjsj -->
 
-- Fuya
-- Front-End Dev Developer
-- TypeScript, React, Redux, Ruby, Ruby on Rails
+Fuya ([@_fuya](https://twitter.com/_fuya))
 
-<!-- textlint-enable preset-ja-technical-writing/max-comma, sjsj -->
+Front-End Dev Developer (フロントエンド開発者)
+
+
+* TypeScript
+* JavaScript
+  * React
+  * Redux
+* Ruby
+  * Ruby on Rails
+
+### Links
+
+* Twitter ([@_fuya](https://twitter.com/_fuya))
+  * 技術的な事は話しません
+* GitHub ([fuya](https://github.com/fuya))
+  * publicなリポジトリは特にありません
+* [Meguro.es](https://meguroes.connpass.com/)
+  * 目黒駅周辺のフロントエンド系勉強会です

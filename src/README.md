@@ -24,5 +24,5 @@ Front-End Dev Developer (フロントエンド開発者)
   * 技術的な事は話しません
 * GitHub ([fuya](https://github.com/fuya))
   * publicなリポジトリは特にありません
-* [Meguro.es](https://meguroes.connpass.com/)
+* [Meguro.es](https://meguro.es/)
   * 目黒駅周辺のフロントエンド系勉強会です

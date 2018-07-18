@@ -4,6 +4,14 @@ description: 'fuya info'
 themeConfig:
   sidebar: 'auto'
 
+  nav:
+    - text: 日記
+      link: /diary
+    - text: snippets
+      link: /snippets
+    - text: 技術記事
+      link: /tech
+
 locales:
   "/":
     lang: "ja-JP"

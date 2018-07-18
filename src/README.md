@@ -27,5 +27,15 @@ Front-End Dev Developer (フロントエンド開発者)
 * [Meguro.es](https://meguro.es/)
   * 目黒駅周辺のフロントエンド系勉強会です
 
-## 最近の記事
+## このサイトについて
+
+Fuya.info は日記やコード片(snippets)や記事を載せます。
+
+技術記事は、基本的にはWIP(生煮え)の状態で公開していきます。
+snippetsでは、解説はほとんどせず、コード片を載せていきます。
+
+思い込みで書いていますので、間違っていることがありましたら
+[Twitter](https://twitter.com/_fuya) でやんわり教えていただけると喜びます。
+
+### 最近の記事
 <post-list v-bind:dirNames="['tech', 'diary']" limit="5" />

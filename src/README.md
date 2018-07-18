@@ -18,15 +18,6 @@ Front-End Dev Developer (フロントエンド開発者)
 * Ruby
   * Ruby on Rails
 
-### Links
-
-* Twitter ([@_fuya](https://twitter.com/_fuya))
-  * 技術的な事は話しません
-* GitHub ([fuya](https://github.com/fuya))
-  * publicなリポジトリは特にありません
-* [Meguro.es](https://meguro.es/)
-  * 目黒駅周辺のフロントエンド系勉強会です
-
 ## このサイトについて
 
 Fuya.info は日記やコード片(snippets)や記事を載せます。

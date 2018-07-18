@@ -2,6 +2,7 @@
   <a class="wrap-link" :href="page.path">
     <div class="post">
       <span class="post-title">
+        <span class="wip" v-if="page.frontmatter.wip">WIP</span>
         {{page.title || page.path}}
       </span>
       <div>
@@ -22,7 +23,9 @@ export default Vue.extend({
   props: ["page"],
   computed: {
     publishedAt() {
-      return new Date(this.page.frontmatter.createdAt).toLocaleDateString();
+      return this.page.frontmatter.createdAt
+        ? new Date(this.page.frontmatter.createdAt).toLocaleDateString()
+        : "----/--/--";
     }
   }
 });
@@ -45,6 +48,12 @@ export default Vue.extend({
 
 .post:hover {
   background: $accentBackgroundColor;
+}
+
+.wip {
+  background: #ccc;
+  padding: 0 0.5em;
+  border-radius: 0.2em;
 }
 
 .post-title {

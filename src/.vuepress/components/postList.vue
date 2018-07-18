@@ -13,7 +13,6 @@ export default Vue.extend({
   computed: {
     pages() {
       const { pages } = this.$site;
-      console.log(pages);
       return pages
         .filter(
           page =>

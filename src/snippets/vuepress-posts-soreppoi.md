@@ -2,7 +2,7 @@
 categories: 
   - vuepress
 createdAt: 2018-07-18T19:00+09:00
-title: VuePress それっぽい記事のリンクを書いてみた
+title: VuePress それっぽい記事の一覧を書いてみた
 ---
 
 ## VuePress

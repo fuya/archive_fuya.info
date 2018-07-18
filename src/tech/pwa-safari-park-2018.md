@@ -3,13 +3,10 @@ categories:
   - a2hs
   - safari
   - PWA
-createAt: 2018-07-19T18:00:00Z+09:00
-title: SafariでもPWAはできるのか？2018夏(draft)
+createdAt: null
+title: SafariでもPWAはできるのか？2018夏
+wip: true
 ---
-
-::: warning 
-この記事は肉付け前です。行間を頑張って読んでください。
-:::
 
 ## さくっと解説
 

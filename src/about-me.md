@@ -1,5 +1,5 @@
 ---
-home: true
+sidebar: false
 footer: Copyright © 2018 Fuya.
 ---
 

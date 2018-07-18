@@ -7,7 +7,7 @@ footer: Copyright © 2018 Fuya.
 
 Fuya (@fuya)
 
-Front-End Dev Developer (フロントエンド開発者)
+Front-End Web Developer (Webフロントエンド開発者)
 
 Master of Computer Science Tokyo University of Technology.
 

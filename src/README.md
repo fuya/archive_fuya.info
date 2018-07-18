@@ -8,7 +8,7 @@ footer: Copyright © 2018 Fuya.
 
 Fuya ([@_fuya](https://twitter.com/_fuya))
 
-Front-End Dev Developer (フロントエンド開発者)
+Front-End Web Developer (Webフロントエンド開発者)
 
 ## このサイトについて
 

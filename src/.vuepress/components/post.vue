@@ -28,13 +28,15 @@ export default Vue.extend({
 });
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
+@import '../override.styl';
+
 .wrap-link {
   display: block;
 }
 
 .post {
-  border: 1px solid #f2f3f5;
+  border: 1px solid $borderColor;
   border-radius: 0.5em;
   padding: 0.5em 1em;
   margin: 0.5em 0;
@@ -42,7 +44,7 @@ export default Vue.extend({
 }
 
 .post:hover {
-  background: #eaf7f1;
+  background: $accentBackgroundColor;
 }
 
 .post-title {
@@ -50,7 +52,7 @@ export default Vue.extend({
 }
 
 .published-at {
-  color: #2c3e50;
+  color: $textColor;
 }
 
 .categories {

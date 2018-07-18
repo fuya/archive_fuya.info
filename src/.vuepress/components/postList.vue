@@ -29,7 +29,7 @@ export default Vue.extend({
 });
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
 ul {
   list-style: none;
   padding: 0;

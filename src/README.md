@@ -10,14 +10,6 @@ Fuya ([@_fuya](https://twitter.com/_fuya))
 
 Front-End Dev Developer (フロントエンド開発者)
 
-
-* TypeScript
-* JavaScript
-  * React
-  * Redux
-* Ruby
-  * Ruby on Rails
-
 ## このサイトについて
 
 Fuya.info は日記やコード片(snippets)や記事を載せます。

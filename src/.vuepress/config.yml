@@ -6,11 +6,11 @@ themeConfig:
 
   nav:
     - text: 日記
-      link: /diary
+      link: /diary/
     - text: snippets
-      link: /snippets
+      link: /snippets/
     - text: 技術記事
-      link: /tech
+      link: /tech/
 
 locales:
   "/":

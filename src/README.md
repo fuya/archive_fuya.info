@@ -26,3 +26,6 @@ Front-End Dev Developer (フロントエンド開発者)
   * publicなリポジトリは特にありません
 * [Meguro.es](https://meguro.es/)
   * 目黒駅周辺のフロントエンド系勉強会です
+
+## 最近の記事
+<post-list v-bind:dirNames="['tech', 'diary']" limit="5" />

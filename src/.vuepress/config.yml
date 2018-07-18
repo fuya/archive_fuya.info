@@ -5,6 +5,8 @@ themeConfig:
   sidebar: 'auto'
 
   nav:
+    - text: Fuyaについて
+      link: /about-me.html
     - text: 日記
       link: /diary/
     - text: snippets

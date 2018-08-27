@@ -15,6 +15,8 @@ Master of Computer Science Tokyo University of Technology.
 * JavaScript
   * React
   * Redux
+  * Vue.js
+  * Nuxt.js
 * Ruby
   * Ruby on Rails
 

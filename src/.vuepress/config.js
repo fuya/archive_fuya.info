@@ -17,9 +17,6 @@ module.exports = {
         text: "snippets",
         link: "/snippets/",
       }, {
-        text: "技術記事",
-        link: "/tech/",
-      }, {
         text: "LINK",
         items: [
           {

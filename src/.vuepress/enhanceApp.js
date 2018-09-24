@@ -30,7 +30,6 @@ export default ({
   siteData.pages.filter(page => (
     (
       page.path.startsWith("/diary") ||
-      page.path.startsWith("/tech") ||
       page.path.startsWith("/snippets")
     ) &&
     !page.frontmatter.disallowIndex

@@ -41,7 +41,7 @@ export default ({
     url: `https://fuya.info${page.path}`,
     categories: page.frontmatter.categories || [],
     author: "Fuya",
-    date: page.frontmatter.date,
+    date: page.frontmatter.createdAt,
   })).forEach((page, i) => {
     if (i >= 20)
       return true;

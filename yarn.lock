@@ -5,28 +5,33 @@
 "@azu/format-text@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@azu/format-text/-/format-text-1.0.1.tgz#6967350a94640f6b02855169bd897ce54d6cebe2"
+  integrity sha1-aWc1CpRkD2sChVFpvYl85U1s6+I=
 
 "@azu/style-format@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@azu/style-format/-/style-format-1.0.0.tgz#e70187f8a862e191b1bce6c0268f13acd3a56b20"
+  integrity sha1-5wGH+Khi4ZGxvObAJo8TrNOlayA=
   dependencies:
     "@azu/format-text" "^1.0.1"
 
 "@babel/code-frame@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0-beta.47.tgz#d18c2f4c4ba8d093a2bcfab5616593bfe2441a27"
+  integrity sha512-W7IeG4MoVf4oUvWfHUx9VG9if3E0xSUDf1urrnNYtC2ow1dz2ptvQ6YsJfyVXDuPTFXz66jkHhzMW7a5Eld7TA==
   dependencies:
     "@babel/highlight" "7.0.0-beta.47"
 
 "@babel/code-frame@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
+  integrity sha512-OfC2uemaknXr87bdLUkWog7nYuliM9Ij5HUcajsVcMCpQrcLmtxRbVFTIqmcSkSeYRBFBRxs2FiUqFJDLdiebA==
   dependencies:
     "@babel/highlight" "^7.0.0"
 
 "@babel/core@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.0.0-beta.47.tgz#b9c164fb9a1e1083f067c236a9da1d7a7d759271"
+  integrity sha512-7EIuAX0UVnCgZ0E9tz9rFK0gd+aovwMA9bul+dnkmBQYLrJdas2EHMUSmaK67i1cyZpvgVvXhHtXJxC7wo3rlQ==
   dependencies:
     "@babel/code-frame" "7.0.0-beta.47"
     "@babel/generator" "7.0.0-beta.47"
@@ -47,6 +52,7 @@
 "@babel/generator@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.0.0-beta.47.tgz#1835709f377cc4d2a4affee6d9258a10bbf3b9d1"
+  integrity sha512-fJP+9X+gqgTTZzTqrKJHwebPwt6S/e/4YuyRyKyWHAIirGgUwjRoZgbFci24wwGYMJW7nlkCSwWG7QvCVsG0eg==
   dependencies:
     "@babel/types" "7.0.0-beta.47"
     jsesc "^2.5.1"
@@ -57,12 +63,14 @@
 "@babel/helper-annotate-as-pure@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.0.0-beta.47.tgz#354fb596055d9db369211bf075f0d5e93904d6f6"
+  integrity sha512-Pjxb/PrxyKWc7jcAXlawvNAQMxxY+tSSNC5wxJstJjpO10mocmGzBOqNYjxdvVhMb3d0BEPQ8mR+D65fFpZ+TA==
   dependencies:
     "@babel/types" "7.0.0-beta.47"
 
 "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.47.tgz#d5917c29ee3d68abc2c72f604bc043f6e056e907"
+  integrity sha512-nv8d6TcDBb1CJMQzwab/e0rqyqoP9d2AQBjr4GdSiVRpJX4aiLEiLBm2XprdEb/sVIRmmBnVxPXJaHDsS/K2fw==
   dependencies:
     "@babel/helper-explode-assignable-expression" "7.0.0-beta.47"
     "@babel/types" "7.0.0-beta.47"
@@ -70,6 +78,7 @@
 "@babel/helper-call-delegate@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/helper-call-delegate/-/helper-call-delegate-7.0.0-beta.47.tgz#96b7804397075f722a4030d3876f51ec19d8829b"
+  integrity sha512-Rx9TRmCCEP0pWau9gfR6ubcbbX3nVc4ImNY143ftC70jrKdSv5rS20yz2cmCilDzhexwGZQ3PFwOLKe3C/5aEg==
   dependencies:
     "@babel/helper-hoist-variables" "7.0.0-beta.47"
     "@babel/traverse" "7.0.0-beta.47"
@@ -78,6 +87,7 @@
 "@babel/helper-define-map@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/helper-define-map/-/helper-define-map-7.0.0-beta.47.tgz#43a9def87c5166dc29630d51b3da9cc4320c131c"
+  integrity sha512-pLB9RY7GZKcc/frzgfDY/HwdqxWPe60qMAvNUef1V1bDZ8i4AUgxAANgltFzj61t100WGhqaS0xGkALD+9VA+g==
   dependencies:
     "@babel/helper-function-name" "7.0.0-beta.47"
     "@babel/types" "7.0.0-beta.47"
@@ -86,6 +96,7 @@
 "@babel/helper-explode-assignable-expression@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/helper-explode-assignable-expression/-/helper-explode-assignable-expression-7.0.0-beta.47.tgz#56b688e282a698f4d1cf135453a11ae8af870a19"
+  integrity sha512-1mwk27zmhSuMUcVWxw5ZKiPYfuWXviZNqgA4OvFBloPf9R+dKDhNgP2uUrkHh68ltVVc3Bup1nsbd/2KM5AxEw==
   dependencies:
     "@babel/traverse" "7.0.0-beta.47"
     "@babel/types" "7.0.0-beta.47"

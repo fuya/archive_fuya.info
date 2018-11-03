@@ -13,6 +13,6 @@
     "textlint-rule-no-empty-section": "^1.1.0",
     "textlint-rule-preset-ja-technical-writing": "^2.0.0",
     "textlint-rule-sjsj": "^1.0.5",
-    "vuepress": "^0.10.2"
+    "vuepress": "^0.14.4"
   }
 }

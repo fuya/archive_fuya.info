@@ -47,6 +47,7 @@ module.exports = {
       lang: "ja-JP"
     }
   },
+  ga: 'UA-25035763-1',
 
   // for Development
   port: 8012

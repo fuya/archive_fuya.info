@@ -7,6 +7,7 @@ module.exports = {
     const {
       title,
       key,
+      path,
       frontmatter
     } = $page
    
@@ -20,6 +21,10 @@ module.exports = {
         name: 'og:image',
         content: `https://fuya.info/ogp/${key}.png`
       });
+      frontmatter.meta.push({
+        name: 'og:url',
+        content: `https://fuya.info${path}`
+      })
       const textToSVG = TextToSVG.loadSync();
       const fontSize = Math.min(72, 900 / Math.min(30, title.length * 2.5))
       const roundedCorners = Buffer.from(textToSVG.getSVG(title, {

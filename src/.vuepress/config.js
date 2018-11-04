@@ -7,7 +7,17 @@ module.exports = {
       async: "async",
       src: "https://platform.twitter.com/widgets.js",
       charset: "utf-8"
-    }]
+    }],
+    ['meta', [
+      {
+        name: 'twitter:card',
+        content: "summary"
+      },
+      {
+        name: 'twitter:site',
+        content: "@_fuya"
+      },
+    ]]
   ],
 
   themeConfig: {

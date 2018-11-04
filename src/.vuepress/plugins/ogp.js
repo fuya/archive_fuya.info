@@ -1,5 +1,5 @@
 var fs = require('fs');
-var text2png = require('text2png');
+var Jimp = require('jimp');
 
 module.exports = {
   extendPageData ($page) {
@@ -19,11 +19,13 @@ module.exports = {
       content: `https://fuya.info/ogp/${key}.png`
     });
     
-    fs.writeFileSync(`./src/.vuepress/public/ogp/${key}.png`, text2png(title, {
-      backgroundColor: '#cccccc',
-      width: 1200,
-      color: 'blue'
-    }));
 
+
+    Jimp.loadFont(Jimp.FONT_SANS_32_BLACK).then((font) => {
+      Jimp.read('./src/.vuepress/public/ogp/ogp-base.png').then((image) => {
+        image.print(font, 300, 100, title);
+        image.write(`./src/.vuepress/public/ogp/${key}.png`)
+      })
+    });
   }
 }

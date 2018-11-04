@@ -1,5 +1,5 @@
 ---
-categories: 
+tags: 
   - netlify
   - ポエム
   - 未解決

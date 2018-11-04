@@ -1,5 +1,5 @@
 ---
-categories: 
+tags: 
   - sass
   - 雑
   - css-loader

@@ -1,5 +1,5 @@
 ---
-categories: 
+tags: 
   - 働き方
   - 自宅
   - 金で解決

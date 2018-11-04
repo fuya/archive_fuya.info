@@ -1,5 +1,5 @@
 ---
-categories: 
+tags: 
   - a2hs
   - safari
   - PWA

@@ -7,8 +7,8 @@
       </span>
       <div>
         <span class="published-at">{{publishedAt}}</span>
-        <ul class="categories">
-          <li class="category" v-for="category in page.frontmatter.categories">
+        <ul class="tags">
+          <li class="category" v-for="category in page.frontmatter.tags">
             {{category}}
           </li>
         </ul>
@@ -64,7 +64,7 @@ export default Vue.extend({
   color: $textColor;
 }
 
-.categories {
+.tags {
   list-style: none;
   display: inline;
   padding: 0;

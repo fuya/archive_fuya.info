@@ -21,7 +21,9 @@ export default Vue.extend({
             ) && this.dirNames.every(dirName => page.path !== `/${dirName}/`)
         )
         .filter(page => !page.frontmatter.disallowIndex)
-        .sort((x, y) => x.frontmatter.createdAt < y.frontmatter.createdAt)
+        .sort((x, y) => {
+          return ((x.frontmatter.createdAt || '0') < (y.frontmatter.createdAt || '0') ? 1 : -1)
+        })
         .slice(0, this.limit || Number.MAX_SAFE_INTEGER);
     }
   }

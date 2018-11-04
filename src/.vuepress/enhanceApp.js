@@ -39,7 +39,7 @@ export default ({
     title: page.title,
     description: page.frontmatter.description || "",
     url: `https://fuya.info${page.path}`,
-    categories: page.frontmatter.categories || [],
+    tags: page.frontmatter.tags || [],
     author: "Fuya",
     date: page.frontmatter.createdAt,
   })).forEach((page, i) => {

@@ -1,6 +1,12 @@
 ---
 home: true
+title: 'Fuya.info'
 description: 'VuePressを使いたかっただけです'
+meta:
+  - name: 'og:image'
+    content: 'https://fuya.info/ogp/ogp-fuya-info.png'
+  - name: 'og:title'
+    content: 'Fuya.info'
 footer: Copyright © 2018 Fuya.
 ---
 

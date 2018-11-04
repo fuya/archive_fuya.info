@@ -57,9 +57,11 @@ module.exports = {
   ga: 'UA-25035763-1',
 
   plugins: [
-    '@vuepress/blog',
-    '@vuepress/google-analytics'
+    // '@vuepress/blog',
+    '@vuepress/google-analytics',
+    require('./plugins/ogp.js')
   ],
+
 
 
   // for Development

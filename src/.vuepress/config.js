@@ -2,6 +2,13 @@ module.exports = {
 
   title: 'Fuya.info',
   description: 'fuya info',
+  head: [
+    ['script', {
+      async: "async",
+      src: "https://platform.twitter.com/widgets.js",
+      charset: "utf-8"
+    }]
+  ],
 
   themeConfig: {
     sidebar: 'auto',
@@ -48,6 +55,12 @@ module.exports = {
     }
   },
   ga: 'UA-25035763-1',
+
+  plugins: [
+    '@vuepress/blog',
+    '@vuepress/google-analytics'
+  ],
+
 
   // for Development
   port: 8012

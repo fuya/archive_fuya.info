@@ -8,16 +8,14 @@ module.exports = {
       src: "https://platform.twitter.com/widgets.js",
       charset: "utf-8"
     }],
-    ['meta', [
-      {
+    ['meta', {
         name: 'twitter:card',
         content: "summary"
-      },
-      {
-        name: 'twitter:site',
-        content: "@_fuya"
-      },
-    ]]
+    }],
+    ['meta', {
+      name: 'twitter:site',
+      content: "@_fuya"
+    }]
   ],
 
   themeConfig: {

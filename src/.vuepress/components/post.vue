@@ -32,7 +32,7 @@ export default Vue.extend({
 </script>
 
 <style lang="stylus" scoped>
-@import '../override.styl';
+@import '../styles/palett.styl';
 
 .wrap-link {
   display: block;

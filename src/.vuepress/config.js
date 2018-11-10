@@ -1,3 +1,9 @@
+const plugins = ['@vuepress/google-analytics',]
+if(!process.env.LOCAL)
+  plugins.push(require('./plugins/ogp.js'));
+
+
+
 module.exports = {
 
   title: 'Fuya.info',
@@ -52,7 +58,7 @@ module.exports = {
     ]
   },
   markdown: {
-    config: md => {
+    extendMarkdown: md => {
       md.use(require('markdown-it-footnote'))
     }
   },
@@ -64,13 +70,7 @@ module.exports = {
   },
   ga: 'UA-25035763-1',
 
-  plugins: [
-    // '@vuepress/blog',
-    '@vuepress/google-analytics',
-    require('./plugins/ogp.js')
-  ],
-
-
+  plugins,
 
   // for Development
   port: 9998
